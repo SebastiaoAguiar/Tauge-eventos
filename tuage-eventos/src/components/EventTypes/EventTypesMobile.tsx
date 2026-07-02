@@ -3,41 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Reveal } from "@/lib/motion";
 import { useCarouselDots } from "@/lib/carousel";
 import CarouselDots from "@/components/ui/CarouselDots";
-import Frame from "@/components/ui/Frame";
-import { whatsappLink, WHATSAPP_MESSAGES } from "@/config/site";
-
-const EVENTS = [
-  {
-    tone: "gold" as const,
-    title: "Casamentos",
-    text: "Cerimônia e recepção em um só lugar, com cenários que acompanham cada estilo de celebração.",
-    href: whatsappLink(WHATSAPP_MESSAGES.casamento),
-  },
-  {
-    tone: "sand" as const,
-    title: "Festas de 15 Anos",
-    text: "Ambientação exclusiva para a festa dos sonhos, com estrutura para grandes produções.",
-    href: whatsappLink(WHATSAPP_MESSAGES.debutante),
-  },
-  {
-    tone: "charcoal" as const,
-    title: "Eventos Corporativos",
-    text: "Auditório e salões modulares para convenções, lançamentos e confraternizações.",
-    href: whatsappLink(WHATSAPP_MESSAGES.corporativo),
-  },
-  {
-    tone: "olive" as const,
-    title: "Buffet",
-    text: "Gastronomia autoral com opções personalizáveis para todos os tipos de evento.",
-    href: whatsappLink(WHATSAPP_MESSAGES.orcamento),
-  },
-  {
-    tone: "terracotta" as const,
-    title: "Locação de Espaço",
-    text: "Alugue nossos salões para o seu próprio projeto, com toda a infraestrutura inclusa.",
-    href: whatsappLink(WHATSAPP_MESSAGES.geral),
-  },
-];
+import { EVENTS } from "@/components/EventTypes/data";
 
 export default function EventTypesMobile() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -70,7 +36,15 @@ export default function EventTypesMobile() {
               rel="noopener noreferrer"
               className="group relative min-w-0 shrink-0 basis-[74%] overflow-hidden rounded-[1.5rem] shadow-soft"
             >
-              <Frame tone={ev.tone} ratio="4 / 5.2" />
+              <div className="overflow-hidden" style={{ aspectRatio: "4 / 5.2" }}>
+                <img
+                  src={ev.image}
+                  alt={ev.title}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-cover"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute inset-0 flex flex-col justify-end p-5">
                 <h3 className="font-serif text-lg text-white">{ev.title}</h3>
