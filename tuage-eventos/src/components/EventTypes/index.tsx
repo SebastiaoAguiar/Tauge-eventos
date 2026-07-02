@@ -41,7 +41,7 @@ const EVENTS = [
   {
     image: tuage,
     title: "Locação de Espaço",
-    text: "Alugue nossos salões para o seu próprio projeto, com toda a infraestrutura inclusa.",
+    text: "Alugue nossos salões para o seu próprio projeto, com toda a infraestrutura já inclusa.",
     href: whatsappLink(WHATSAPP_MESSAGES.geral),
   },
 ];
