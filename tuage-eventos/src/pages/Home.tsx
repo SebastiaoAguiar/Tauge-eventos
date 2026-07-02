@@ -1,0 +1,38 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Origin from "@/components/Origin";
+import SectionDivider from "@/components/ui/SectionDivider";
+import Differentials from "@/components/Differentials";
+import EventTypes from "@/components/EventTypes";
+import Gallery from "@/components/Gallery";
+import HowItWorks from "@/components/HowItWorks";
+import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import Footer from "@/components/Footer";
+import WhatsappButton from "@/components/WhatsappButton";
+import BackToTop from "@/components/BackToTop";
+
+export default function Home() {
+  return (
+    <main className="w-full overflow-hidden bg-cream text-charcoal">
+      <Navbar />
+      <Hero />
+      <About />
+      <SectionDivider />
+      <Origin />
+      <SectionDivider flip />
+      <Differentials />
+      <EventTypes />
+      <Gallery />
+      <HowItWorks />
+      <Testimonials />
+      <FAQ />
+      <FinalCTA />
+      <Footer />
+      <WhatsappButton />
+      <BackToTop />
+    </main>
+  );
+}

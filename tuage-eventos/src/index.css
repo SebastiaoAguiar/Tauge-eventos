@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/* ---------------------------------------------------------
+   DESIGN TOKENS — Tuagê Eventos
+   Paleta: off-white / bege claro / dourado fosco / cinza quente
+--------------------------------------------------------- */
+@theme {
+  --color-cream: #FAF7F1;
+  --color-cream-soft: #F4EEE3;
+  --color-sand: #EAE1D1;
+  --color-linen: #EFE7D8;
+  --color-gold: #B08A4E;
+  --color-gold-soft: #CBA86B;
+  --color-gold-mist: #E4D2A8;
+  --color-charcoal: #262220;
+  --color-charcoal-soft: #3A3430;
+  --color-taupe: #8A7F70;
+  --color-taupe-soft: #B2A896;
+
+  --color-terracotta: #C17A52;
+  --color-terracotta-soft: #E3B896;
+  --color-olive: #87895E;
+  --color-olive-soft: #A9AC85;
+  --color-wood: #6B4A34;
+
+  --font-serif: "Fraunces", "Georgia", serif;
+  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --shadow-soft: 0 30px 80px -20px rgba(38, 34, 32, 0.18);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-gold-mist);
+  color: var(--color-charcoal);
+}
+
+/* Scroll offset for fixed navbar anchors */
+#inicio, #sobre, #origem, #eventos, #galeria, #contato {
+  scroll-margin-top: 110px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-soft);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+/* ---------------------------------------------------------
+   Utility layer
+--------------------------------------------------------- */
+.section {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-left: clamp(20px, 5vw, 48px);
+  padding-right: clamp(20px, 5vw, 48px);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.divider-gold {
+  height: 1px;
+  width: 56px;
+  background: linear-gradient(90deg, var(--color-gold), transparent);
+}
+
+/* subtle grain texture used across placeholder frames for a premium editorial feel */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+/* extremely light fiber/linen texture — for section backgrounds rather than photo frames */
+.texture-linen::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9 0.25' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float-slow {
+  animation: float 7s ease-in-out infinite;
+}
+
+.animate-marquee-x {
+  animation: marquee-x 34s linear infinite;
+}
+@keyframes marquee-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track:hover .animate-marquee-x {
+  animation-play-state: paused;
+}
