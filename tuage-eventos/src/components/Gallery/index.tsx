@@ -3,6 +3,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Reveal } from "@/lib/motion";
 import Frame, { type Tone } from "@/components/ui/Frame";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import GalleryMobile from "@/components/Gallery/GalleryMobile";
 
 const ITEMS: { tone: Tone; label: string; ratio: string }[] = [
   { tone: "gold", label: "Cerimônia ao ar livre", ratio: "4 / 5" },
@@ -16,7 +18,10 @@ const ITEMS: { tone: Tone; label: string; ratio: string }[] = [
 ];
 
 export default function Gallery() {
+  const isMobile = useIsMobile();
   const [active, setActive] = useState<number | null>(null);
+
+  if (isMobile) return <GalleryMobile />;
 
   const next = () => setActive((a) => (a === null ? a : (a + 1) % ITEMS.length));
   const prev = () =>

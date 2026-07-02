@@ -1,8 +1,10 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal } from "@/lib/motion";
-import Frame from "@/components/ui/Frame";
+
 import TuageMark from "@/components/ui/TuageMark";
+import movimentoImage from "@/assets/images/Movimento.png";
+import cerradoImage from "@/assets/images/Cerrado.png";
 
 const BEATS = ["A seca", "A dança", "A celebração"];
 
@@ -37,17 +39,16 @@ export default function Origin() {
             </motion.div>
 
             <div className="relative grid grid-cols-2 gap-5">
-              <Frame
-                tone="wood"
-                ratio="3 / 4"
-                className="mt-10 rounded-[1.75rem] shadow-soft"
-                label="Cerrado"
+              <img
+                src={cerradoImage}
+                alt="Cerrado"
+                className="mt-10 rounded-[1.75rem] shadow-soft aspect-[3/4] w-full object-cover"
               />
-              <Frame
-                tone="terracotta"
-                ratio="3 / 4"
-                className="rounded-[1.75rem] shadow-soft"
-                label="Movimento"
+              
+              <img
+                src={movimentoImage}
+                alt="Movimento"
+                className="aspect-[3/4] w-full rounded-[1.75rem] object-cover shadow-soft"
               />
             </div>
 

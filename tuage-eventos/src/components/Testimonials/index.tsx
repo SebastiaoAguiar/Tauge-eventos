@@ -1,5 +1,7 @@
 import { Star, Quote } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/lib/motion";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import TestimonialsMobile from "@/components/Testimonials/TestimonialsMobile";
 
 const TESTIMONIALS = [
   {
@@ -8,18 +10,21 @@ const TESTIMONIALS = [
     text: "Lugar maravilhoso. Espaçoso, bem iluminado e móveis de muito bom gosto. Excelente para aniversários,casamentos e formaturas pq tem um mezanino que realça a entrada dos formandos."
   },
   {
-    name: "Beatriz Almeida",
-    event: "Festa de 15 anos",
-    text: "Sonhei com essa festa a vida toda e a Tuagê superou todas as expectativas. A estrutura e o buffet foram impecáveis do início ao fim.",
-  },
+    name: "Dlisconsultoria",
+    event: "Festa de aniversario",
+    text: "Melhor local de Palmas para eventos, estrutura excelente, a casa tem buffet próprio e comida de alto padrão" 
+ },
   {
-    name: "Grupo Horizonte",
+    name: "Paulo Guilherme",
     event: "Evento corporativo",
-    text: "Realizamos nossa convenção anual no espaço e o profissionalismo da equipe fez toda a diferença para o sucesso do evento.",
-  },
+    text: "Lugar amplo, bem arejado, com local para várias criações e ideias, casamentos, festas comemorativas, confraternizações dentre outro, excelente!"
+},
 ];
 
 export default function Testimonials() {
+  const isMobile = useIsMobile();
+  if (isMobile) return <TestimonialsMobile />;
+
   return (
     <section id="depoimentos" className="bg-charcoal py-24 md:py-32">
       <div className="section">

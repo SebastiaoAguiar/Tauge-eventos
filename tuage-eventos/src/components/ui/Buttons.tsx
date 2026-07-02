@@ -7,20 +7,25 @@ type ButtonProps = {
   className?: string;
 };
 
-export function GoldButton({ href, children, className = "" }: ButtonProps) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`
-        group relative inline-flex items-center justify-center gap-2.5
-        overflow-hidden rounded-full bg-charcoal px-8 py-4
-        text-sm font-semibold tracking-wide text-cream
-        transition-all duration-500 hover:shadow-[0_18px_40px_-12px_rgba(38,34,32,0.55)]
-        ${className}
-      `}
-    >
+type PolymorphicButtonProps = {
+  /** Renderiza um `<a>` externo. Omita e use `onClick` para renderizar um `<button>`. */
+  href?: string;
+  onClick?: () => void;
+  children: ReactNode;
+  className?: string;
+};
+
+export function GoldButton({ href, onClick, children, className = "" }: PolymorphicButtonProps) {
+  const sharedClassName = `
+    group relative inline-flex items-center justify-center gap-2.5
+    overflow-hidden rounded-full bg-charcoal px-8 py-4
+    text-sm font-semibold tracking-wide text-cream
+    transition-all duration-500 hover:shadow-[0_18px_40px_-12px_rgba(38,34,32,0.55)]
+    ${className}
+  `;
+
+  const content = (
+    <>
       <span
         className="
           pointer-events-none absolute inset-0 -translate-x-full
@@ -33,7 +38,21 @@ export function GoldButton({ href, children, className = "" }: ButtonProps) {
         size={16}
         className="relative z-10 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
       />
-    </a>
+    </>
+  );
+
+  if (href) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={sharedClassName}>
+        {content}
+      </a>
+    );
+  }
+
+  return (
+    <button type="button" onClick={onClick} className={sharedClassName}>
+      {content}
+    </button>
   );
 }
 

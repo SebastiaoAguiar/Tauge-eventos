@@ -8,7 +8,8 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import logo from "/src/assets/images/Logo.png";
-import { whatsappLink, WHATSAPP_MESSAGES, MAPS_LINK } from "@/config/site";
+import { MAPS_LINK } from "@/config/site";
+import { useContactPopup } from "@/components/ContactPopup/ContactPopupProvider";
 
 type NavLink = { href: string; label: string; external?: boolean };
 
@@ -26,6 +27,7 @@ const LINKS: NavLink[] = [
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const { openContactPopup } = useContactPopup();
   const { scrollY } = useScroll();
   const progress = useTransform(scrollY, [0, 120], [0, 1], { clamp: true });
 
@@ -85,14 +87,13 @@ export default function Navbar() {
           </nav>
 
           <div className="hidden xl:block">
-            <a
-              href={whatsappLink(WHATSAPP_MESSAGES.visita)}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
+              onClick={openContactPopup}
               className="rounded-full bg-charcoal px-6 py-3 text-[13px] font-semibold uppercase tracking-[0.08em] text-cream transition-all duration-300 hover:bg-gold hover:shadow-[0_10px_30px_-12px_rgba(176,138,78,0.7)]"
             >
               Agendar Visita
-            </a>
+            </button>
           </div>
 
           <button
@@ -129,15 +130,16 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href={whatsappLink(WHATSAPP_MESSAGES.visita)}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setIsOpen(false)}
+              <button
+                type="button"
+                onClick={() => {
+                  setIsOpen(false);
+                  openContactPopup();
+                }}
                 className="mt-2 rounded-xl bg-charcoal px-4 py-3 text-center text-sm font-semibold text-cream"
               >
-                Agendar Visita pelo WhatsApp
-              </a>
+                Agendar Visita
+              </button>
             </div>
           </motion.div>
         )}

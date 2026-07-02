@@ -1,5 +1,7 @@
 import { CalendarCheck, MessageCircle, ClipboardList, PartyPopper } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/lib/motion";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import HowItWorksMobile from "@/components/HowItWorks/HowItWorksMobile";
 
 const STEPS = [
   {
@@ -25,6 +27,9 @@ const STEPS = [
 ];
 
 export default function HowItWorks() {
+  const isMobile = useIsMobile();
+  if (isMobile) return <HowItWorksMobile />;
+
   return (
     <section className="section py-24 md:py-32">
       <div className="mb-16 max-w-2xl">

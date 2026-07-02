@@ -1,36 +1,45 @@
 import { ArrowUpRight } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/lib/motion";
-import Frame from "@/components/ui/Frame";
 import TuageMark from "@/components/ui/TuageMark";
 import { whatsappLink, WHATSAPP_MESSAGES } from "@/config/site";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import EventTypesMobile from "@/components/EventTypes/EventTypesMobile";
+
+// Imagens
+
+import debutanteImg from "@/assets/images/Debutante.png";
+import casamentoImg from "@/assets/images/Casamento.png";
+import corporativoImg from "@/assets/images/Corporativo.png";
+import buffetImg from "@/assets/images/Buffet.png";
+import tuage from "@/assets/images/Tuage.jpeg";
 
 const EVENTS = [
   {
-    tone: "gold" as const,
+    image: casamentoImg,
     title: "Casamentos",
     text: "Cerimônia e recepção em um só lugar, com cenários que acompanham cada estilo de celebração.",
     href: whatsappLink(WHATSAPP_MESSAGES.casamento),
   },
   {
-    tone: "sand" as const,
+    image: debutanteImg,
     title: "Festas de 15 Anos",
     text: "Ambientação exclusiva para a festa dos sonhos, com estrutura para grandes produções.",
     href: whatsappLink(WHATSAPP_MESSAGES.debutante),
   },
   {
-    tone: "charcoal" as const,
+    image: corporativoImg,
     title: "Eventos Corporativos",
     text: "Auditório e salões modulares para convenções, lançamentos e confraternizações.",
     href: whatsappLink(WHATSAPP_MESSAGES.corporativo),
   },
   {
-    tone: "olive" as const,
+    image: buffetImg,
     title: "Buffet",
     text: "Gastronomia autoral com opções personalizáveis para todos os tipos de evento.",
     href: whatsappLink(WHATSAPP_MESSAGES.orcamento),
   },
   {
-    tone: "terracotta" as const,
+    image: tuage,
     title: "Locação de Espaço",
     text: "Alugue nossos salões para o seu próprio projeto, com toda a infraestrutura inclusa.",
     href: whatsappLink(WHATSAPP_MESSAGES.geral),
@@ -38,6 +47,10 @@ const EVENTS = [
 ];
 
 export default function EventTypes() {
+  const isMobile = useIsMobile();
+
+  if (isMobile) return <EventTypesMobile />;
+
   return (
     <section id="eventos" className="section py-24 md:py-32">
       <div className="mb-14 flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
@@ -45,8 +58,9 @@ export default function EventTypes() {
           <Reveal>
             <span className="eyebrow">Tipos de eventos</span>
           </Reveal>
+
           <Reveal variant="heading" delay={0.05}>
-            <h2 className="text-balance mt-4 text-[clamp(2rem,4vw,3rem)] leading-[1.15] text-charcoal">
+            <h2 className="mt-4 text-balance text-[clamp(2rem,4vw,3rem)] leading-[1.15] text-charcoal">
               Um espaço, múltiplas possibilidades de celebração
             </h2>
           </Reveal>
@@ -65,25 +79,49 @@ export default function EventTypes() {
               i === 0 ? "sm:col-span-2 lg:col-span-2 lg:row-span-2" : ""
             }`}
           >
-            <a href={ev.href} target="_blank" rel="noopener noreferrer" className="block h-full">
-              <Frame
-                tone={ev.tone}
-                ratio={i === 0 ? "4 / 5.4" : "4 / 5"}
-                className="transition-transform duration-700 group-hover:scale-[1.04]"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
+            <a
+              href={ev.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block h-full"
+            >
+              {/* Imagem */}
+              <div
+                className="overflow-hidden"
+                style={{
+                  aspectRatio: i === 0 ? "4 / 5.4" : "4 / 5",
+                }}
+              >
+                <img
+                  src={ev.image}
+                  alt={ev.title}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+
+              {/* Gradiente */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+              {/* Logo decorativa */}
               <TuageMark
                 size={64}
                 tone="cream"
-                className="absolute right-4 top-4 opacity-0 transition-opacity duration-500 group-hover:opacity-30"
+                className="absolute right-4 top-4 opacity-0 transition-opacity duration-500 group-hover:opacity-25"
               />
+
+              {/* Conteúdo */}
               <div className="absolute inset-0 flex flex-col justify-end p-6">
-                <h3 className="font-serif text-xl text-white">{ev.title}</h3>
-                <p className="mt-2 max-w-[220px] text-[13px] leading-relaxed text-white/75">
+                <h3 className="font-serif text-xl text-white">
+                  {ev.title}
+                </h3>
+
+                <p className="mt-2 max-w-[240px] text-[13px] leading-relaxed text-white/80">
                   {ev.text}
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-gold-mist opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  Falar no WhatsApp <ArrowUpRight size={13} />
+
+                <span className="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gold-mist opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
+                  Falar no WhatsApp
+                  <ArrowUpRight size={13} />
                 </span>
               </div>
             </a>

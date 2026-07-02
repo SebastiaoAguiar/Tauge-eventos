@@ -1,3 +1,4 @@
+import { ContactPopupProvider } from "@/components/ContactPopup/ContactPopupProvider";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -16,23 +17,25 @@ import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
-    <main className="w-full overflow-hidden bg-cream text-charcoal">
-      <Navbar />
-      <Hero />
-      <About />
-      <SectionDivider />
-      <Origin />
-      <SectionDivider flip />
-      <Differentials />
-      <EventTypes />
-      <Gallery />
-      <HowItWorks />
-      <Testimonials />
-      <FAQ />
-      <FinalCTA />
-      <Footer />
-      <WhatsappButton />
-      <BackToTop />
-    </main>
+    <ContactPopupProvider>
+      <main className="w-full overflow-hidden bg-cream text-charcoal">
+        <Navbar />
+        <Hero />
+        <About />
+        <SectionDivider />
+        <Origin />
+        <SectionDivider flip />
+        <Differentials />
+        <EventTypes />
+        <Gallery />
+        <HowItWorks />
+        <Testimonials />
+        <FAQ />
+        <FinalCTA />
+        <Footer />
+        <WhatsappButton />
+        <BackToTop />
+      </main>
+    </ContactPopupProvider>
   );
 }

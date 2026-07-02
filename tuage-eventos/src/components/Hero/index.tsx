@@ -2,8 +2,10 @@ import { useRef } from "react";
 import { Check } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { GoldButton, GhostButton } from "@/components/ui/Buttons";
-import { whatsappLink, WHATSAPP_MESSAGES } from "@/config/site";
 import localImage from "@/assets/images/Local.png";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import { useContactPopup } from "@/components/ContactPopup/ContactPopupProvider";
+import HeroMobile from "@/components/Hero/HeroMobile";
 
 const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
@@ -26,6 +28,10 @@ export default function Hero() {
     offset: ["start start", "end start"],
   });
   const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "16%"]);
+  const isMobile = useIsMobile();
+  const { openContactPopup } = useContactPopup();
+
+  if (isMobile) return <HeroMobile />;
 
   return (
     <section
@@ -100,9 +106,7 @@ export default function Hero() {
             variants={fadeUp}
             className="mt-10 flex flex-wrap items-center gap-4"
           >
-            <GoldButton href={whatsappLink(WHATSAPP_MESSAGES.visita)}>
-              Agendar uma visita
-            </GoldButton>
+            <GoldButton onClick={openContactPopup}>Agendar uma visita</GoldButton>
             <GhostButton href="#galeria">Ver galeria</GhostButton>
           </motion.div>
 

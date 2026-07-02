@@ -1,8 +1,13 @@
 import { Users, UtensilsCrossed, ShieldCheck, CarFront, Palette } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/lib/motion";
 import Frame from "@/components/ui/Frame";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import DifferentialsMobile from "@/components/Differentials/DifferentialsMobile";
 
 export default function Differentials() {
+  const isMobile = useIsMobile();
+  if (isMobile) return <DifferentialsMobile />;
+
   return (
     <section id="diferenciais" className="section py-24 md:py-32">
       <div className="mb-14 max-w-2xl">
@@ -81,7 +86,7 @@ export default function Differentials() {
 
         <RevealItem
           variant="card"
-          className="rounded-[1.75rem] border border-charcoal/8 bg-cream-soft p-7 shadow-sm sm:col-span-2 lg:col-span-2"
+          className="w-full rounded-[1.75rem] border border-charcoal/8 bg-cream-soft p-7 shadow-sm sm:col-span-2 lg:col-span-2"
         >
           <Palette className="text-gold" size={24} />
           <h3 className="mt-4 font-serif text-xl text-charcoal">
@@ -92,6 +97,9 @@ export default function Differentials() {
             para transformar seu conceito em realidade.
           </p>
         </RevealItem>
+
+        
+        
       </RevealGroup>
     </section>
   );

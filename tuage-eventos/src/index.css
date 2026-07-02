@@ -139,6 +139,21 @@ h1, h2, h3, h4 {
   pointer-events: none;
 }
 
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-x-mandatory {
+  scroll-snap-type: x mandatory;
+}
+.snap-start-item {
+  scroll-snap-align: start;
+}
+
 .animate-float {
   animation: float 5s ease-in-out infinite;
 }
