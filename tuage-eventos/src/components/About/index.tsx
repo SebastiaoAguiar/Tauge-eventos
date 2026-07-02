@@ -42,7 +42,7 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={0.16}>
-            <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-3">
+            <div className="mt-10 grid grid-cols-3 gap-6 sm:grid-cols-3">
               {[
                 { n: "1.200m²", l: "de área total" },
                 { n: "500", l: "convidados sentados" },
