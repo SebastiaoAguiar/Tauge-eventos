@@ -27,8 +27,7 @@ export function whatsappLink(message: string) {
 }
 
 export const MAPS_LINK =
-  "https://google.com/maps/dir/-10.3338962,-48.2883738/Tuagê+Eventos,+903+SUL,+Alameda+13+-+Plano+Diretor+Sul,+Palmas+-+TO,+77017-281/@-10.3338962,-48.2883738,15z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x933b3509cafe00f1:0x5701b87432099a85!2m2!1d-48.3381958!2d-10.2389085?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D";
-
+ "https://maps.app.goo.gl/6zUyG7NeZQByhNBp7"
 export const WHATSAPP_MESSAGES = {
   visita: "Olá! Gostaria de agendar uma visita ao espaço da Tuagê Eventos.",
   orcamento: "Olá! Gostaria de solicitar um orçamento para o meu evento.",
