@@ -1,5 +1,4 @@
 import { Reveal } from "@/lib/motion";
-import Frame from "@/components/ui/Frame";
 
 export default function About() {
   return (

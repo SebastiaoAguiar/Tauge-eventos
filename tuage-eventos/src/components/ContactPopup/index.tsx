@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight, X } from "lucide-react";
-import TuageMark from "@/components/ui/TuageMark";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import { CONTACT_CHANNELS } from "@/components/ContactPopup/contacts";
 import Logo from "@/assets/images/Logo.png";
