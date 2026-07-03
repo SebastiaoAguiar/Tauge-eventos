@@ -4,6 +4,7 @@ import { ArrowUpRight, X } from "lucide-react";
 import TuageMark from "@/components/ui/TuageMark";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import { CONTACT_CHANNELS } from "@/components/ContactPopup/contacts";
+import Logo from "@/assets/images/Logo.png";
 
 const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
@@ -87,7 +88,7 @@ export default function ContactPopup({ isOpen, onClose }: ContactPopupProps) {
             </button>
 
             <div className="px-7 pb-8 pt-8 sm:pt-9">
-              <TuageMark size={30} tone="gold" />
+              <img src={Logo} alt="Tuagê Eventos" className="h-8 w-auto" />
               <h2 className="mt-4 font-serif text-2xl text-charcoal">Fale com a Tuagê</h2>
               <p className="mt-1.5 text-sm leading-relaxed text-taupe">
                 Escolha o canal que preferir — nossa equipe responde rapidinho.

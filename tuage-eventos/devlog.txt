@@ -1,0 +1,542 @@
+
+> tuage-eventos@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v6.4.3[39m  [2mready in [0m[1m820[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m19:57:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m__shot.cjs[22m
+[2m23:58:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m23:58:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m23:58:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m23:58:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:09:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:09:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:09:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:09:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:09:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:09:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:09:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:09:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:09:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:14:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:14:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:14:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:14:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:14:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:14:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:14:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:14:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:15:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:15:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:15:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:15:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:16:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:16:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:16:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:16:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:16:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:16:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:16:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:24:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:24:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:24:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:24:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:24:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:24:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:24:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m00:24:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:25:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Differentials/index.tsx, /src/index.css[22m
+[2m00:25:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:28:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:28:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:28:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:28:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:28:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:28:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:35:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:35:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:35:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:35:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:37:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:37:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:37:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:37:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:37:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:37:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:38:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:38:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:38:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:38:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:38:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:38:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:38:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:38:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:38:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:38:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:39:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx, /src/index.css[22m
+[2m00:39:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:39:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/EventTypes/index.tsx, /src/index.css[22m
+[2m00:39:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:48:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\Differentials\DifferentialsMobile.tsx, /src/index.css[22m
+[2m00:48:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Differentials/index.tsx, /src/index.css[22m
+[2m00:48:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:48:06[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/components/Differentials/index.tsx (resolved id: C:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/Differentials/index.tsx) in C:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/pages/Home.tsx. Does the file exist?
+[2m00:48:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:48:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+[2m00:48:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+[2m00:48:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:49:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:49:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:49:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:49:57[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected keyword 'const'. (9:0)
+
+[0m [90m  7 |[31m [36mimport[31m 
+ [90m  8 |[31m
+[31m[1m>[22m[31m[90m  9 |[31m [36mconst[31m [33mEASE[31m[33m:[31m [number[33m,[31m number[33m,[31m number[33m,[31m number] [33m=[31m [[35m0.16[31m[33m,[31m [35m1[31m[33m,[31m [35m0.3[31m[33m,[31m [35m1[31m][33m;[31m
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 10 |[31m
+ [90m 11 |[31m type [33mContactPopupProps[31m [33m=[31m {
+ [90m 12 |[31m   isOpen[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import 
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+      at constructor (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.checkReservedWord (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12241:12)
+      at TypeScriptParserMixin.checkReservedWord (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9327:13)
+      at TypeScriptParserMixin.parseIdentifierName (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12228:12)
+      at TypeScriptParserMixin.parseIdentifier (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12198:23)
+      at TypeScriptParserMixin.parseImportSpecifierLocal (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14279:28)
+      at TypeScriptParserMixin.maybeParseDefaultImportSpecifier (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14383:12)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14256:29)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14252:17)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9370:26)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12893:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:261:32)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:189:28
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:113:33
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:287:14)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+[2m00:49:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:49:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected keyword 'const'. (9:0)
+
+[0m [90m  7 |[39m [36mimport[39m 
+ [90m  8 |[39m
+[31m[1m>[22m[39m[90m  9 |[39m [36mconst[39m [33mEASE[39m[33m:[39m [number[33m,[39m number[33m,[39m number[33m,[39m number] [33m=[39m [[35m0.16[39m[33m,[39m [35m1[39m[33m,[39m [35m0.3[39m[33m,[39m [35m1[39m][33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 10 |[39m
+ [90m 11 |[39m type [33mContactPopupProps[39m [33m=[39m {
+ [90m 12 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import 
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+[2m00:49:59[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected keyword 'const'. (9:0)
+
+[0m [90m  7 |[31m [36mimport[31m 
+ [90m  8 |[31m
+[31m[1m>[22m[31m[90m  9 |[31m [36mconst[31m [33mEASE[31m[33m:[31m [number[33m,[31m number[33m,[31m number[33m,[31m number] [33m=[31m [[35m0.16[31m[33m,[31m [35m1[31m[33m,[31m [35m0.3[31m[33m,[31m [35m1[31m][33m;[31m
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 10 |[31m
+ [90m 11 |[31m type [33mContactPopupProps[31m [33m=[31m {
+ [90m 12 |[31m   isOpen[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import 
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+      at constructor (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.checkReservedWord (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12241:12)
+      at TypeScriptParserMixin.checkReservedWord (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9327:13)
+      at TypeScriptParserMixin.parseIdentifierName (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12228:12)
+      at TypeScriptParserMixin.parseIdentifier (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12198:23)
+      at TypeScriptParserMixin.parseImportSpecifierLocal (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14279:28)
+      at TypeScriptParserMixin.maybeParseDefaultImportSpecifier (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14383:12)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14256:29)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14252:17)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9370:26)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12893:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:261:32)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:189:28
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:113:33
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:287:14)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+[2m00:50:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:50:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected keyword 'const'. (9:0)
+
+[0m [90m  7 |[39m [36mimport[39m 
+ [90m  8 |[39m
+[31m[1m>[22m[39m[90m  9 |[39m [36mconst[39m [33mEASE[39m[33m:[39m [number[33m,[39m number[33m,[39m number[33m,[39m number] [33m=[39m [[35m0.16[39m[33m,[39m [35m1[39m[33m,[39m [35m0.3[39m[33m,[39m [35m1[39m][33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 10 |[39m
+ [90m 11 |[39m type [33mContactPopupProps[39m [33m=[39m {
+ [90m 12 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import 
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+[2m00:50:00[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected keyword 'const'. (9:0)
+
+[0m [90m  7 |[31m [36mimport[31m 
+ [90m  8 |[31m
+[31m[1m>[22m[31m[90m  9 |[31m [36mconst[31m [33mEASE[31m[33m:[31m [number[33m,[31m number[33m,[31m number[33m,[31m number] [33m=[31m [[35m0.16[31m[33m,[31m [35m1[31m[33m,[31m [35m0.3[31m[33m,[31m [35m1[31m][33m;[31m
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 10 |[31m
+ [90m 11 |[31m type [33mContactPopupProps[31m [33m=[31m {
+ [90m 12 |[31m   isOpen[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import 
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+      at constructor (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.checkReservedWord (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12241:12)
+      at TypeScriptParserMixin.checkReservedWord (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9327:13)
+      at TypeScriptParserMixin.parseIdentifierName (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12228:12)
+      at TypeScriptParserMixin.parseIdentifier (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12198:23)
+      at TypeScriptParserMixin.parseImportSpecifierLocal (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14279:28)
+      at TypeScriptParserMixin.maybeParseDefaultImportSpecifier (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14383:12)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14256:29)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14252:17)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9370:26)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12893:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:261:32)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:189:28
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:113:33
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:287:14)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+[2m00:50:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:50:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[39m [36mimport[39m [33mTau[39m
+ [90m  8 |[39m
+[31m[1m>[22m[39m[90m  9 |[39m [36mconst[39m [33mEASE[39m[33m:[39m [number[33m,[39m number[33m,[39m number[33m,[39m number] [33m=[39m [[35m0.16[39m[33m,[39m [35m1[39m[33m,[39m [35m0.3[39m[33m,[39m [35m1[39m][33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 10 |[39m
+ [90m 11 |[39m type [33mContactPopupProps[39m [33m=[39m {
+ [90m 12 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import Tau
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+[2m00:50:03[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[31m [36mimport[31m [33mTau[31m
+ [90m  8 |[31m
+[31m[1m>[22m[31m[90m  9 |[31m [36mconst[31m [33mEASE[31m[33m:[31m [number[33m,[31m number[33m,[31m number[33m,[31m number] [33m=[31m [[35m0.16[31m[33m,[31m [35m1[31m[33m,[31m [35m0.3[31m[33m,[31m [35m1[31m][33m;[31m
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 10 |[31m
+ [90m 11 |[31m type [33mContactPopupProps[31m [33m=[31m {
+ [90m 12 |[31m   isOpen[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import Tau
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+      at constructor (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expectContextual (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6895:12)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14260:10)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14252:17)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9370:26)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12893:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:261:32)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:189:28
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:113:33
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:287:14)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+[2m00:50:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:50:05[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[39m [36mimport[39m [33mTauge[39m
+ [90m  8 |[39m
+[31m[1m>[22m[39m[90m  9 |[39m [36mconst[39m [33mEASE[39m[33m:[39m [number[33m,[39m number[33m,[39m number[33m,[39m number] [33m=[39m [[35m0.16[39m[33m,[39m [35m1[39m[33m,[39m [35m0.3[39m[33m,[39m [35m1[39m][33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 10 |[39m
+ [90m 11 |[39m type [33mContactPopupProps[39m [33m=[39m {
+ [90m 12 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import Tauge
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+[2m00:50:05[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[31m [36mimport[31m [33mTauge[31m
+ [90m  8 |[31m
+[31m[1m>[22m[31m[90m  9 |[31m [36mconst[31m [33mEASE[31m[33m:[31m [number[33m,[31m number[33m,[31m number[33m,[31m number] [33m=[31m [[35m0.16[31m[33m,[31m [35m1[31m[33m,[31m [35m0.3[31m[33m,[31m [35m1[31m][33m;[31m
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 10 |[31m
+ [90m 11 |[31m type [33mContactPopupProps[31m [33m=[31m {
+ [90m 12 |[31m   isOpen[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import Tauge
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+      at constructor (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expectContextual (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6895:12)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14260:10)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14252:17)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9370:26)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12893:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:261:32)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:189:28
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:113:33
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:287:14)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+[2m00:50:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:50:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[39m [36mimport[39m [33mLogo[39m
+ [90m  8 |[39m
+[31m[1m>[22m[39m[90m  9 |[39m [36mconst[39m [33mEASE[39m[33m:[39m [number[33m,[39m number[33m,[39m number[33m,[39m number] [33m=[39m [[35m0.16[39m[33m,[39m [35m1[39m[33m,[39m [35m0.3[39m[33m,[39m [35m1[39m][33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 10 |[39m
+ [90m 11 |[39m type [33mContactPopupProps[39m [33m=[39m {
+ [90m 12 |[39m   isOpen[33m:[39m boolean[33m;[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import Logo
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+[2m00:50:12[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[31m [36mimport[31m [33mLogo[31m
+ [90m  8 |[31m
+[31m[1m>[22m[31m[90m  9 |[31m [36mconst[31m [33mEASE[31m[33m:[31m [number[33m,[31m number[33m,[31m number[33m,[31m number] [33m=[31m [[35m0.16[31m[33m,[31m [35m1[31m[33m,[31m [35m0.3[31m[33m,[31m [35m1[31m][33m;[31m
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 10 |[31m
+ [90m 11 |[31m type [33mContactPopupProps[31m [33m=[31m {
+ [90m 12 |[31m   isOpen[33m:[31m boolean[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/sebas/Downloads/tuage-eventos/tuage-eventos/src/components/ContactPopup/index.tsx[39m:9:0
+[33m  7  |  import Logo
+  8  |  
+  9  |  const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
+     |  ^
+  10 |  
+  11 |  type ContactPopupProps = {[39m
+      at constructor (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expectContextual (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:6895:12)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14260:10)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14252:17)
+      at TypeScriptParserMixin.parseImport (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9370:26)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12893:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:261:32)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:189:28
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:113:33
+      at step (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:287:14)
+      at C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\node_modules\gensync\index.js:223:11)
+[2m00:50:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:50:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:50:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:50:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:51:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:51:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:51:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
+[2m00:51:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:53:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m00:53:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:53:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/favicon.svg[22m
+[2m00:53:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m00:53:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m00:53:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m

@@ -21,7 +21,7 @@ export default function EventTypesMobile() {
         </Reveal>
         <Reveal variant="heading" delay={0.05}>
           <h2 className="text-balance mt-3 text-[clamp(1.7rem,7vw,2.3rem)] leading-[1.18] text-charcoal">
-            Um espaço, múltiplas possibilidades de celebração
+            Um espaço, múltiplas possibilidades
           </h2>
         </Reveal>
       </div>

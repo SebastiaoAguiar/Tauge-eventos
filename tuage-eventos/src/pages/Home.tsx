@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Origin from "@/components/Origin";
 import SectionDivider from "@/components/ui/SectionDivider";
-import Differentials from "@/components/Differentials";
 import EventTypes from "@/components/EventTypes";
 import Gallery from "@/components/Gallery";
 import HowItWorks from "@/components/HowItWorks";
@@ -25,7 +24,6 @@ export default function Home() {
         <SectionDivider />
         <Origin />
         <SectionDivider flip />
-        <Differentials />
         <EventTypes />
         <Gallery />
         <HowItWorks />

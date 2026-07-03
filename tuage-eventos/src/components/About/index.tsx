@@ -6,8 +6,8 @@ export default function About() {
     <section id="sobre" className="section py-24 md:py-32">
       <div className="grid gap-14 lg:grid-cols-2 lg:gap-20">
         <Reveal variant="image">
-          <div className="relative">
-            <Frame tone="sand" ratio="5 / 6" className="rounded-[2rem] shadow-soft" />
+          <div className="relative aspect-[5/6]">
+            <img src="/src/assets/images/Sobre.png" alt="Tuagê Eventos" className="rounded-[2rem] shadow-soft w-full h-full object-cover object-top" />
             <div className="absolute -right-6 -top-6 hidden h-32 w-32 items-center justify-center rounded-full border border-gold/30 bg-cream/90 text-center backdrop-blur-md sm:flex">
               <p className="font-serif text-sm leading-tight text-charcoal">
                 desde

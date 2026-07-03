@@ -5,13 +5,23 @@ import { useIsMobile } from "@/hooks/useIsMobile";
 import EventTypesMobile from "@/components/EventTypes/EventTypesMobile";
 import { EVENTS } from "@/components/EventTypes/data";
 
+// Elegant, full-height fade — replaces the old flat bottom bar.
+const CARD_GRADIENT =
+  "linear-gradient(to top, rgba(0,0,0,.85) 0%, rgba(0,0,0,.55) 35%, rgba(0,0,0,.15) 70%, rgba(0,0,0,0) 100%)";
+
+// Casamentos leads as the tall left-hand feature; the remaining four
+// fill the right side as an even 2×2 (Festas 15 | Corporativo, then
+// Locação | Buffet) via plain CSS Grid auto-placement — no manual
+// per-item column math.
+const DISPLAY_ORDER = [EVENTS[0], EVENTS[1], EVENTS[2], EVENTS[4], EVENTS[3]];
+
 export default function EventTypes() {
   const isMobile = useIsMobile();
 
   if (isMobile) return <EventTypesMobile />;
 
   return (
-    <section id="eventos" className="section py-24 md:py-32">
+    <section id="eventos" className="section py-20 md:py-28">
       <div className="mb-14 flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
         <div className="max-w-xl">
           <Reveal>
@@ -20,7 +30,7 @@ export default function EventTypes() {
 
           <Reveal variant="heading" delay={0.05}>
             <h2 className="mt-4 text-balance text-[clamp(2rem,4vw,3rem)] leading-[1.15] text-charcoal">
-              Um espaço, múltiplas possibilidades de celebração
+              Um espaço, múltiplas possibilidades
             </h2>
           </Reveal>
         </div>
@@ -28,14 +38,14 @@ export default function EventTypes() {
 
       <RevealGroup
         stagger={0.08}
-        className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5"
+        className="grid grid-cols-2 gap-[18px] lg:grid-cols-3"
       >
-        {EVENTS.map((ev, i) => (
+        {DISPLAY_ORDER.map((ev, i) => (
           <RevealItem
             key={ev.title}
             variant="image"
             className={`group relative overflow-hidden rounded-[1.75rem] shadow-soft ${
-              i === 0 ? "sm:col-span-2 lg:col-span-2 lg:row-span-2" : ""
+              i === 0 ? "col-span-2 lg:col-span-1 lg:row-span-2" : ""
             }`}
           >
             <a
@@ -46,26 +56,31 @@ export default function EventTypes() {
             >
               {/* Imagem */}
               <div
-                className="overflow-hidden"
-                style={{
-                  aspectRatio: i === 0 ? "4 / 5.4" : "4 / 5",
-                }}
+                className={`overflow-hidden ${
+                  i === 0 ? "aspect-[16/11] lg:aspect-auto lg:h-full" : "aspect-[10/11]"
+                }`}
               >
                 <img
                   src={ev.image}
                   alt={ev.title}
-                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className={`h-full w-full object-cover transition-transform duration-300 ease-out group-hover:scale-[1.04] ${
+                    i === 0 ? "object-[58%_38%]" : ""
+                  }`}
                 />
               </div>
 
-              {/* Gradiente */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              {/* Gradiente — fade preto suave, cobrindo toda a imagem */}
+              <div
+                className="pointer-events-none absolute inset-0"
+                style={{ backgroundImage: CARD_GRADIENT }}
+              />
+              <div className="pointer-events-none absolute inset-0 bg-black/0 transition-colors duration-300 ease-out group-hover:bg-black/10" />
 
               {/* Logo decorativa */}
               <TuageMark
                 size={64}
                 tone="cream"
-                className="absolute right-4 top-4 opacity-0 transition-opacity duration-500 group-hover:opacity-25"
+                className="absolute right-4 top-4 opacity-0 transition-opacity duration-300 group-hover:opacity-25"
               />
 
               {/* Conteúdo */}
