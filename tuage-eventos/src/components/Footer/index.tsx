@@ -47,21 +47,7 @@ export default function Footer() {
               <span className="flex items-center gap-2">
                 <MapPin size={15} className="text-gold" /> {SITE.city}
               </span>
-            </div>
-          </RevealItem>
-
-          <RevealItem>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-[0.1em] text-charcoal">
-              Legal
-            </h4>
-            <div className="flex flex-col gap-3">
-              <a href="/privacidade" className="text-taupe transition hover:text-gold">
-                Política de Privacidade
-              </a>
-              <a href="/termos" className="text-taupe transition hover:text-gold">
-                Termos de Uso
-              </a>
-              <a
+               <a
                 href={SITE.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -78,6 +64,20 @@ export default function Footer() {
                 <Facebook size={15} /> Facebook
               </a>
             </div>
+          </RevealItem>
+
+          <RevealItem>
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-[0.1em] text-charcoal">
+              Legal
+            </h4>
+            <div className="flex flex-col gap-3">
+              <a href="/privacidade" className="text-taupe transition hover:text-gold">
+                Política de Privacidade
+              </a>
+              <a href="/termos" className="text-taupe transition hover:text-gold">
+                Termos de Uso
+              </a>
+             </div>
           </RevealItem>
         </RevealGroup>
 
