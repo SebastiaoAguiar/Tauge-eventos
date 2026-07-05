@@ -681,3 +681,10 @@
 [2m22:44:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
 [2m22:44:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
 [2m22:44:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m22:48:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Privacy.tsx, /src/pages/Terms.tsx, /src/components/Navbar/index.tsx, /src/components/Footer/index.tsx, /src/components/FinalCTA/index.tsx, /src/components/EventTypes/index.tsx, /@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\EventTypes\EventTypesMobile.tsx[22m
+[2m22:48:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m22:48:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar/index.tsx, /src/index.css[22m
+[2m22:48:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer/index.tsx, /src/index.css[22m
+[2m22:48:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer/index.tsx, /src/index.css[22m
+[2m22:48:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer/index.tsx, /src/index.css[22m
+[2m22:48:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m

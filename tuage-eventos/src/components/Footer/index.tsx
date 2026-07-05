@@ -1,6 +1,6 @@
-import { Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Facebook, Phone, MapPin } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/lib/motion";
-import logo from "/src/assets/images/Logo.png";
+import logo from "@/assets/images/Logo.png";
 import { SITE } from "@/config/site";
 
 export default function Footer() {
@@ -45,9 +45,6 @@ export default function Footer() {
                 <Phone size={15} className="text-gold" /> {SITE.phoneDisplay}
               </span>
               <span className="flex items-center gap-2">
-                <Mail size={15} className="text-gold" /> {SITE.email}
-              </span>
-              <span className="flex items-center gap-2">
                 <MapPin size={15} className="text-gold" /> {SITE.city}
               </span>
             </div>
@@ -71,6 +68,14 @@ export default function Footer() {
                 className="flex items-center gap-2 text-taupe transition hover:text-gold"
               >
                 <Instagram size={15} /> Instagram
+              </a>
+              <a
+                href={SITE.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-taupe transition hover:text-gold"
+              >
+                <Facebook size={15} /> Facebook
               </a>
             </div>
           </RevealItem>

@@ -18,6 +18,7 @@ export const SITE = {
   email: "contato@tuageeventos.com.br",
   phoneDisplay: "(63) 99282-4106",
   instagram: "https://instagram.com/tuageeventos",
+  facebook: "https://facebook.com/tuageeventos",
 };
 
 /** Gera um link de WhatsApp já com a mensagem contextual preenchida. */

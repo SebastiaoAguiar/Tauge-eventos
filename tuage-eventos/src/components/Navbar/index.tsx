@@ -7,7 +7,7 @@ import {
   useTransform,
   useMotionValueEvent,
 } from "framer-motion";
-import logo from "/src/assets/images/Logo.png";
+import logo from "@/assets/images/Logo.png";
 import { MAPS_LINK } from "@/config/site";
 import { useContactPopup } from "@/components/ContactPopup/ContactPopupProvider";
 
