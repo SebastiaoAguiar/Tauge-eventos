@@ -16,7 +16,6 @@ type NavLink = { href: string; label: string; external?: boolean };
 const LINKS: NavLink[] = [
   { href: "#sobre", label: "Sobre" },
   { href: "#origem", label: "Origem" },
-  { href: "#diferenciais", label: "Diferenciais" },
   { href: "#eventos", label: "Eventos" },
   { href: "#galeria", label: "Galeria" },
   { href: "#depoimentos", label: "Depoimentos" },

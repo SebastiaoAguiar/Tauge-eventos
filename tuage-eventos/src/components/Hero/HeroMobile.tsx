@@ -60,8 +60,8 @@ export default function HeroMobile() {
           variants={fadeUp}
           className="text-balance text-[clamp(2rem,8vw,2.6rem)] font-medium leading-[1.14] text-cream"
         >
-          Transformamos celebrações em{" "}
-          <span className="italic text-gold-mist">memórias inesquecíveis</span>.
+          Eternizamos sonhos em{" "}
+          <span className="italic text-gold-mist">celebrações inesquecíveis</span>.
         </motion.h1>
 
         <motion.p
@@ -72,7 +72,8 @@ export default function HeroMobile() {
           className="mt-4 text-[15px] leading-relaxed text-cream/75"
         >
           Casamentos, festas de 15 anos e eventos corporativos ganham vida em
-          um espaço pensado nos mínimos detalhes.
+          um espaço pensado nos mínimos detalhes, com conceitos criativos e
+          inovadores.
         </motion.p>
 
         <motion.div

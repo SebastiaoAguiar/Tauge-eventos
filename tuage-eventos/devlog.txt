@@ -545,3 +545,135 @@
 [2m14:20:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
 [2m14:20:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ContactPopup\index.tsx, /src/index.css[22m
 [2m14:20:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:31:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m02:31:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:31:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:36:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ui\Frame.tsx, /src/index.css[22m
+[2m02:36:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ui\Frame.tsx, /src/index.css[22m
+[2m02:36:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Gallery/index.tsx, /src/index.css[22m
+[2m02:37:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Gallery/index.tsx, /src/index.css[22m
+[2m02:37:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Gallery/index.tsx, /src/index.css[22m
+[2m02:37:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\Gallery\GalleryMobile.tsx, /src/index.css[22m
+[2m02:37:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:37:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\Gallery\GalleryMobile.tsx, /src/index.css[22m
+[2m02:37:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar/index.tsx, /src/index.css[22m
+[2m02:38:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Hero/index.tsx, /src/index.css[22m
+[2m02:38:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Hero/index.tsx, /src/index.css[22m
+[2m02:38:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\Hero\HeroMobile.tsx, /src/index.css[22m
+[2m02:38:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m02:38:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:38:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:39:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m02:39:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:39:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:39:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:39:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Footer/index.tsx, /src/index.css[22m
+[2m02:39:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:39:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:57:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ui\Frame.tsx, /src/index.css[22m
+[2m02:57:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:57:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Privacy.tsx, /src/index.css[22m
+[2m02:57:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:57:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Privacy.tsx, /src/index.css[22m
+[2m02:57:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ui\Frame.tsx, /src/index.css[22m
+[2m02:57:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:57:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:57:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:57:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:57:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:57:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Gallery/index.tsx, /src/index.css[22m
+[2m02:58:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:58:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:58:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\Gallery\GalleryMobile.tsx, /src/index.css[22m
+[2m02:58:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:58:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:58:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:58:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:58:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:58:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:59:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Terms.tsx, /src/index.css[22m
+[2m02:59:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m02:59:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:01:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:01:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:01:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:01:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:01:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:02:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:02:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:02:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:02:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:02:42[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:05:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:05:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m03:05:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:05:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Gallery/index.tsx, /src/index.css[22m
+[2m03:09:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:09:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\ui\Frame.tsx, /src/index.css[22m
+[2m03:10:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+[2m03:11:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+[2m03:11:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+[2m03:11:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.tsx, /src/index.css[22m
+[2m03:11:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m03:11:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m

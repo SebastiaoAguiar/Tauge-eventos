@@ -21,11 +21,11 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
+        <Gallery />
         <SectionDivider />
         <Origin />
         <SectionDivider flip />
         <EventTypes />
-        <Gallery />
         <HowItWorks />
         <Testimonials />
         <FAQ />

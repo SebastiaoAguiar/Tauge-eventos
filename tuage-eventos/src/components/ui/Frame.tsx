@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 
 export type Tone =
   | "gold"
@@ -23,21 +23,18 @@ const TONES: Record<Tone, string> = {
 
 type FrameProps = {
   tone?: Tone;
+  src?: string;
+  imgStyle?: CSSProperties;
   ratio?: string; // aspect-ratio css value, e.g. "4 / 5"
   className?: string;
   children?: ReactNode;
   label?: string;
 };
 
-/**
- * Bloco visual "photo-ready": até que as fotos reais do espaço/eventos
- * sejam enviadas, este componente ocupa o lugar das imagens com uma
- * composição editorial (gradiente + textura de grão), mantendo a
- * sensação premium do layout. Basta trocar por <img> quando as fotos
- * chegarem — a proporção (ratio) já está definida para cada seção.
- */
 export default function Frame({
   tone = "gold",
+  src,
+  imgStyle,
   ratio = "4 / 5",
   className = "",
   children,
@@ -45,14 +42,24 @@ export default function Frame({
 }: FrameProps) {
   return (
     <div
-      className={`relative overflow-hidden grain ${className}`}
-      style={{ aspectRatio: ratio, background: TONES[tone] }}
+      className={`relative overflow-hidden ${src ? "" : "grain"} ${className}`}
+      style={{ aspectRatio: ratio, background: src ? undefined : TONES[tone] }}
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-black/0 to-transparent" />
+      {src ? (
+        <img
+          src={src}
+          alt={label ?? ""}
+          style={imgStyle}
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 ease-out sm:group-hover:scale-105"
+        />
+      ) : null}
       {label ? (
-        <span className="absolute bottom-4 left-4 text-[11px] tracking-[0.2em] uppercase text-white/70 font-medium">
-          {label}
-        </span>
+        <>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/0 to-transparent" />
+          <span className="absolute bottom-4 left-4 text-[11px] tracking-[0.2em] uppercase text-white/70 font-medium">
+            {label}
+          </span>
+        </>
       ) : null}
       {children}
     </div>

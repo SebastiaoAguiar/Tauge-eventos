@@ -79,7 +79,7 @@ export default function Footer() {
         <Reveal delay={0.1}>
           <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-charcoal/10 pt-6 text-sm text-taupe md:flex-row">
             <p>© {new Date().getFullYear()} Tuagê Eventos. Todos os direitos reservados.</p>
-            <p>Feito com cuidado para celebrar histórias.</p>
+            <p>Tuagê Eventos — Eternizando sonhos.</p>
           </div>
         </Reveal>
       </div>

@@ -11,7 +11,7 @@ export default function About() {
               <p className="font-serif text-sm leading-tight text-charcoal">
                 desde
                 <br />
-                <span className="text-xl text-gold">2013</span>
+                <span className="text-xl text-gold">2015</span>
               </p>
             </div>
           </div>
@@ -31,29 +31,37 @@ export default function About() {
 
           <Reveal delay={0.1}>
             <p className="mt-6 max-w-xl leading-relaxed text-taupe">
-              A Tuagê Eventos nasceu do desejo de oferecer uma experiência
-              completa e sem preocupações: uma estrutura sofisticada, equipe
-              especializada e um olhar cuidadoso para cada detalhe — do
-              primeiro contato ao último brinde. Recebemos casamentos, festas
-              de 15 anos e eventos corporativos com o mesmo padrão de
-              excelência.
+              Atuamos da concepção ao desenvolvimento e realização de eventos
+              festivos, sociais e corporativos, com conceitos criativos e
+              inovadores para surpreender as expectativas de cada cliente.
+              Nossa infraestrutura moderna atende aos mais altos padrões de
+              segurança e acessibilidade, com ambientes amplos, requinte,
+              conforto e mobiliário clássico.
             </p>
           </Reveal>
 
-          <Reveal delay={0.16}>
-            <div className="mt-10 grid grid-cols-3 gap-6 sm:grid-cols-3">
-              {[
-                { n: "1.200m²", l: "de área total" },
-                { n: "500", l: "convidados sentados" },
-                { n: "12", l: "anos de mercado" },
-              ].map((item) => (
-                <div key={item.l} className="border-l-2 border-gold/30 pl-4">
-                  <p className="font-serif text-2xl text-charcoal">{item.n}</p>
-                  <p className="mt-1 text-xs uppercase tracking-[0.1em] text-taupe">
-                    {item.l}
-                  </p>
-                </div>
-              ))}
+          <Reveal delay={0.15}>
+            <p className="mt-4 max-w-xl leading-relaxed text-taupe">
+              Na cozinha, tecnologia de ponta garante agilidade sem abrir mão
+              da segurança alimentar — tudo conduzido por uma equipe
+              comprometida com a entrega e a satisfação de cada cliente, do
+              primeiro contato ao último brinde.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.2}>
+            <div className="mt-8 flex items-start gap-4 rounded-[1.5rem] border border-gold/20 bg-cream/70 p-4 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-soft-lg sm:mr-6">
+              <div className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gold/10 text-lg text-gold animate-pulse">
+                ✦
+              </div>
+              <div className="min-w-0">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
+                  Da origem à experiência
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-taupe">
+                  Tudo começou com a visão de quem acreditou que cada celebração merece acolhimento, beleza e um toque único de verdade.
+                </p>
+              </div>
             </div>
           </Reveal>
         </div>

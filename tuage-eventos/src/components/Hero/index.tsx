@@ -83,8 +83,8 @@ export default function Hero() {
             variants={fadeUp}
             className="text-balance text-[clamp(2.6rem,6vw,4.8rem)] font-medium leading-[1.08] text-cream"
           >
-            Transformamos celebrações em{" "}
-            <span className="italic text-gold-mist">memórias inesquecíveis</span>.
+            Eternizamos sonhos em{" "}
+            <span className="italic text-gold-mist">celebrações inesquecíveis</span>.
           </motion.h1>
 
           <motion.p
@@ -95,8 +95,8 @@ export default function Hero() {
             className="mt-6 max-w-lg text-[17px] leading-relaxed text-cream/75"
           >
             Casamentos, festas de 15 anos e eventos corporativos ganham vida
-            em um espaço pensado nos mínimos detalhes — com elegância,
-            estrutura completa e atendimento verdadeiramente exclusivo.
+            em um espaço pensado nos mínimos detalhes, com conceitos criativos
+            e inovadores que surpreendem as expectativas do início ao fim.
           </motion.p>
 
           <motion.div

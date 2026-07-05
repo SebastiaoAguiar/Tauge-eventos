@@ -2,26 +2,26 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Reveal } from "@/lib/motion";
-import Frame, { type Tone } from "@/components/ui/Frame";
-import { useIsMobile } from "@/hooks/useIsMobile";
-import GalleryMobile from "@/components/Gallery/GalleryMobile";
+import Frame from "@/components/ui/Frame";
 
-const ITEMS: { tone: Tone; label: string; ratio: string }[] = [
-  { tone: "gold", label: "Cerimônia ao ar livre", ratio: "4 / 5" },
-  { tone: "charcoal", label: "Salão principal à noite", ratio: "4 / 3" },
-  { tone: "sand", label: "Mesa dos convidados", ratio: "4 / 5" },
-  { tone: "olive", label: "Decoração floral", ratio: "4 / 4.6" },
-  { tone: "linen", label: "Buffet & gastronomia", ratio: "4 / 3" },
-  { tone: "gold", label: "Pista de dança", ratio: "4 / 5.4" },
-  { tone: "charcoal", label: "Festa de 15 anos", ratio: "4 / 5" },
-  { tone: "terracotta", label: "Evento corporativo", ratio: "4 / 3" },
+import img1 from "@/assets/images/1.png";
+import img2 from "@/assets/images/2.png";
+import img3 from "@/assets/images/3.png";
+import img4 from "@/assets/images/4.png";
+import img5 from "@/assets/images/5.png";
+import img6 from "@/assets/images/6.png";
+
+const ITEMS: { src: string; position?: string }[] = [
+  { src: img1, position: "center 30%" },
+  { src: img2, position: "62% center" },
+  { src: img3 },
+  { src: img4 },
+  { src: img5, position: "38% center" },
+  { src: img6, position: "56% center" },
 ];
 
 export default function Gallery() {
-  const isMobile = useIsMobile();
   const [active, setActive] = useState<number | null>(null);
-
-  if (isMobile) return <GalleryMobile />;
 
   const next = () => setActive((a) => (a === null ? a : (a + 1) % ITEMS.length));
   const prev = () =>
@@ -46,24 +46,31 @@ export default function Gallery() {
         </Reveal>
       </div>
 
-      <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
+      <div
+        className="
+          -mx-[clamp(20px,5vw,48px)] flex snap-x snap-mandatory gap-4
+          overflow-x-auto pb-2 pl-[clamp(20px,5vw,48px)] no-scrollbar
+          sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-5 sm:overflow-visible
+          sm:pb-0 sm:pl-0 sm:snap-none lg:grid-cols-3
+        "
+      >
         {ITEMS.map((item, i) => (
-          <Reveal key={item.label} variant="image" delay={(i % 3) * 0.08}>
+          <Reveal
+            key={item.src}
+            variant="image"
+            delay={(i % 3) * 0.08}
+            className="w-[78%] shrink-0 snap-start sm:w-auto sm:shrink sm:snap-align-none"
+          >
             <button
               onClick={() => setActive(i)}
-              className="group relative block w-full overflow-hidden rounded-[1.5rem] shadow-soft"
+              aria-label="Ampliar foto"
+              className="group block w-full overflow-hidden rounded-[1.5rem] shadow-soft transition-transform duration-300 ease-out sm:hover:-translate-y-1"
             >
-              <Frame tone={item.tone} ratio={item.ratio} label={item.label}>
-                <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10" />
-              </Frame>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-400 group-hover:opacity-100">
-                <span className="rounded-full border border-white/50 px-4 py-1.5 text-[11px] uppercase tracking-[0.14em] text-white backdrop-blur-sm">
-                  Ampliar
-                </span>
-              </div>
+              <Frame src={item.src} ratio="1 / 1" imgStyle={{ objectPosition: item.position }} />
             </button>
           </Reveal>
         ))}
+        <div className="w-2 shrink-0 sm:hidden" aria-hidden />
       </div>
 
       <AnimatePresence>
@@ -101,13 +108,12 @@ export default function Gallery() {
               exit={{ opacity: 0, scale: 0.96 }}
               transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
               onClick={(e) => e.stopPropagation()}
-              className="w-full max-w-2xl"
+              className="max-h-[85vh] max-w-[90vw]"
             >
-              <Frame
-                tone={ITEMS[active].tone}
-                ratio="4 / 5"
-                className="rounded-[1.5rem]"
-                label={ITEMS[active].label}
+              <img
+                src={ITEMS[active].src}
+                alt=""
+                className="max-h-[85vh] w-auto rounded-[1.5rem] object-contain shadow-2xl"
               />
             </motion.div>
 

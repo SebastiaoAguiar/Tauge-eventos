@@ -12,7 +12,7 @@ export default function Terms() {
         >
           <ArrowLeft size={16} /> Voltar ao site
         </Link>
-
+<p></p>
         <span className="eyebrow">Legal</span>
         <h1 className="mt-4 font-serif text-4xl">Termos de Uso</h1>
 
