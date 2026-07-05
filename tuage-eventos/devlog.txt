@@ -677,3 +677,7 @@
 [2m03:11:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
 [2m03:11:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
 [2m03:11:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m22:44:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m22:44:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:\Users\sebas\Downloads\tuage-eventos\tuage-eventos\src\components\About\index.tsx, /src/index.css[22m
+[2m22:44:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
+[2m22:44:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdevlog.txt[22m
