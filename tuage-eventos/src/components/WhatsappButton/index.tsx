@@ -7,7 +7,7 @@ export default function WhatsappButton() {
   return (
     <div className="fixed bottom-6 right-6 z-[999] flex items-center gap-3">
       <div className="animate-float hidden rounded-full border border-charcoal/10 bg-cream px-5 py-3 text-sm text-charcoal shadow-soft md:block">
-        Agende sua visita
+        Fale conosco
       </div>
 
       <button
