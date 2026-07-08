@@ -137,7 +137,7 @@ export default function Navbar() {
                 }}
                 className="mt-2 rounded-xl bg-charcoal px-4 py-3 text-center text-sm font-semibold text-cream"
               >
-                Agendar Visita
+                Fale conosco
               </button>
             </div>
           </motion.div>
