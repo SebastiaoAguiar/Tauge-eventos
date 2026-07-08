@@ -25,7 +25,7 @@ export default function FinalCTA() {
               href={whatsappLink(WHATSAPP_MESSAGES.visita)}
               className="bg-gold text-charcoal hover:shadow-[0_18px_45px_-12px_rgba(203,168,107,0.6)]"
             >
-              Agendar uma visita pelo WhatsApp
+             Fale conosco
             </GoldButton>
           </div>
         </div>

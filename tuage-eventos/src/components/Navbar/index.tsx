@@ -91,7 +91,7 @@ export default function Navbar() {
               onClick={openContactPopup}
               className="rounded-full bg-charcoal px-6 py-3 text-[13px] font-semibold uppercase tracking-[0.08em] text-cream transition-all duration-300 hover:bg-gold hover:shadow-[0_10px_30px_-12px_rgba(176,138,78,0.7)]"
             >
-              Agendar Visita
+              Fale conosco
             </button>
           </div>
 

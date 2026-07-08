@@ -102,7 +102,7 @@ export default function HeroMobile() {
           className="mt-7 flex flex-col gap-3"
         >
           <GoldButton onClick={openContactPopup} className="w-full">
-            Agendar uma visita
+            Fale conosco
           </GoldButton>
           <GhostButton href="#galeria" className="w-full">
             Ver galeria

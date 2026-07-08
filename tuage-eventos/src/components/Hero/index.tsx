@@ -106,7 +106,7 @@ export default function Hero() {
             variants={fadeUp}
             className="mt-10 flex flex-wrap items-center gap-4"
           >
-            <GoldButton onClick={openContactPopup}>Agendar uma visita</GoldButton>
+            <GoldButton onClick={openContactPopup}>Fale conosco</GoldButton>
             <GhostButton href="#galeria">Ver galeria</GhostButton>
           </motion.div>
 
