@@ -8,10 +8,9 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import logo from "@/assets/images/Logo.png";
-import { MAPS_LINK } from "@/config/site";
 import { useContactPopup } from "@/components/ContactPopup/ContactPopupProvider";
 
-type NavLink = { href: string; label: string; external?: boolean };
+type NavLink = { href: string; label: string; external?: boolean; pin?: boolean };
 
 const LINKS: NavLink[] = [
   { href: "#sobre", label: "Sobre" },
@@ -20,7 +19,9 @@ const LINKS: NavLink[] = [
   { href: "#galeria", label: "Galeria" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#faq", label: "FAQ" },
-  { href: MAPS_LINK, label: "Onde estamos", external: true },
+  // Agora rola suavemente até a seção #localizacao (o botão "Abrir no Google
+  // Maps" dentro da própria seção continua levando ao Maps).
+  { href: "#localizacao", label: "Onde estamos", pin: true },
 ];
 
 export default function Navbar() {
@@ -79,7 +80,7 @@ export default function Navbar() {
                     : "text-cream/90 hover:text-cream"
                 }`}
               >
-                {link.external && <MapPin size={13} className="shrink-0" strokeWidth={2.2} />}
+                {link.pin && <MapPin size={13} className="shrink-0" strokeWidth={2.2} />}
                 {link.label}
               </a>
             ))}
@@ -125,7 +126,7 @@ export default function Navbar() {
                   {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                   className="flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-medium text-charcoal-soft transition-colors hover:bg-cream-soft hover:text-gold"
                 >
-                  {link.external && <MapPin size={15} className="shrink-0" strokeWidth={2.2} />}
+                  {link.pin && <MapPin size={15} className="shrink-0" strokeWidth={2.2} />}
                   {link.label}
                 </a>
               ))}

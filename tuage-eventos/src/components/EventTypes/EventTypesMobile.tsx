@@ -1,9 +1,11 @@
-import { ArrowUpRight } from "lucide-react";
+import { useState } from "react";
+import { Images } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import { Reveal } from "@/lib/motion";
 import { useCarouselDots } from "@/lib/carousel";
 import CarouselDots from "@/components/ui/CarouselDots";
-import { EVENTS } from "@/components/EventTypes/data";
+import EventGalleryModal from "@/components/EventGallery";
+import { EVENTS, type EventCategory } from "@/components/EventTypes/data";
 
 export default function EventTypesMobile() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -12,6 +14,7 @@ export default function EventTypesMobile() {
     containScroll: "trimSnaps",
   });
   const { selectedIndex, scrollSnaps, onDotClick } = useCarouselDots(emblaApi);
+  const [activeEvent, setActiveEvent] = useState<EventCategory | null>(null);
 
   return (
     <section id="eventos" className="py-20">
@@ -29,17 +32,19 @@ export default function EventTypesMobile() {
       <div className="overflow-hidden pl-6" ref={emblaRef}>
         <div className="flex gap-4">
           {EVENTS.map((ev) => (
-            <a
+            <button
               key={ev.title}
-              href={ev.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative min-w-0 shrink-0 basis-[74%] overflow-hidden rounded-[1.5rem] shadow-soft"
+              type="button"
+              onClick={() => setActiveEvent(ev)}
+              aria-label={`Abrir galeria de ${ev.title}`}
+              className="group relative min-w-0 shrink-0 basis-[74%] overflow-hidden rounded-[1.5rem] text-left shadow-soft"
             >
               <div className="overflow-hidden" style={{ aspectRatio: "4 / 5.2" }}>
                 <img
                   src={ev.image}
                   alt={ev.title}
+                  loading="lazy"
+                  decoding="async"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -48,10 +53,10 @@ export default function EventTypesMobile() {
                 <h3 className="font-serif text-lg text-white">{ev.title}</h3>
                 <p className="mt-1.5 text-[13px] leading-relaxed text-white/75">{ev.text}</p>
                 <span className="mt-3 inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide text-gold-mist">
-                  Falar no WhatsApp <ArrowUpRight size={12} />
+                  Ver galeria <Images size={12} />
                 </span>
               </div>
-            </a>
+            </button>
           ))}
           <div className="shrink-0 w-2" aria-hidden />
         </div>
@@ -60,6 +65,8 @@ export default function EventTypesMobile() {
       <div className="mt-7">
         <CarouselDots count={scrollSnaps.length} selectedIndex={selectedIndex} onDotClick={onDotClick} />
       </div>
+
+      <EventGalleryModal event={activeEvent} onClose={() => setActiveEvent(null)} />
     </section>
   );
 }

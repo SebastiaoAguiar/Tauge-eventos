@@ -27,8 +27,37 @@ export function whatsappLink(message: string) {
   return `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encoded}`;
 }
 
+/** Link de orçamento usado no CTA da galeria de cada tipo de evento. */
+export function whatsappBudgetLink(category: string) {
+  return whatsappLink(
+    `Olá! Gostaria de solicitar um orçamento para um evento do tipo ${category}.`,
+  );
+}
+
 export const MAPS_LINK =
  "https://maps.app.goo.gl/6zUyG7NeZQByhNBp7"
+
+/* ----------------------------------------------------------
+ *  LOCALIZAÇÃO — usada na seção "Onde Estamos"
+ *  ⚠️ Ajuste os textos abaixo quando tiver os dados finais.
+ * ---------------------------------------------------------- */
+export const LOCATION = {
+  /** Endereço completo exibido na seção. */
+  address: "Alameda 13, Quadra 903 Sul",
+  city: "Palmas",
+  state: "Tocantins",
+  zip: "77023-392",
+  /** Ponto de referência (deixe "" para ocultar a linha). */
+  reference: "Região Sul de Palmas, com acesso fácil e estacionamento no local",
+  /** Horário de atendimento (deixe "" para ocultar a linha). */
+  hours: "Visitas com hora marcada — todos os dias",
+  /** Coordenadas exatas do pin (as mesmas do link do Google Maps). */
+  coords: { lat: -10.238747, lng: -48.338233 },
+};
+
+/** URL do Google Maps Embed com o pin exatamente na Tuagê (não requer API key). */
+export const MAPS_EMBED_URL = `https://maps.google.com/maps?q=${LOCATION.coords.lat},${LOCATION.coords.lng}&z=16&hl=pt-BR&output=embed`;
+
 export const WHATSAPP_MESSAGES = {
   visita: "Olá! Gostaria de agendar uma visita ao espaço da Tuagê Eventos.",
   orcamento: "Olá! Gostaria de solicitar um orçamento para o meu evento.",

@@ -1,9 +1,11 @@
-import { ArrowUpRight } from "lucide-react";
+import { useState } from "react";
+import { Images } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/lib/motion";
 import TuageMark from "@/components/ui/TuageMark";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import EventTypesMobile from "@/components/EventTypes/EventTypesMobile";
-import { EVENTS } from "@/components/EventTypes/data";
+import EventGalleryModal from "@/components/EventGallery";
+import { EVENTS, type EventCategory } from "@/components/EventTypes/data";
 
 // Elegant, full-height fade — replaces the old flat bottom bar.
 const CARD_GRADIENT =
@@ -17,6 +19,7 @@ const DISPLAY_ORDER = [EVENTS[0], EVENTS[1], EVENTS[2], EVENTS[4], EVENTS[3]];
 
 export default function EventTypes() {
   const isMobile = useIsMobile();
+  const [activeEvent, setActiveEvent] = useState<EventCategory | null>(null);
 
   if (isMobile) return <EventTypesMobile />;
 
@@ -48,11 +51,11 @@ export default function EventTypes() {
               i === 0 ? "col-span-2 lg:col-span-1 lg:row-span-2" : ""
             }`}
           >
-            <a
-              href={ev.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block h-full"
+            <button
+              type="button"
+              onClick={() => setActiveEvent(ev)}
+              aria-label={`Abrir galeria de ${ev.title}`}
+              className="block h-full w-full cursor-pointer text-left"
             >
               {/* Imagem */}
               <div
@@ -94,14 +97,16 @@ export default function EventTypes() {
                 </p>
 
                 <span className="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gold-mist opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-                  Falar no WhatsApp
-                  <ArrowUpRight size={13} />
+                  Ver galeria
+                  <Images size={13} />
                 </span>
               </div>
-            </a>
+            </button>
           </RevealItem>
         ))}
       </RevealGroup>
+
+      <EventGalleryModal event={activeEvent} onClose={() => setActiveEvent(null)} />
     </section>
   );
 }

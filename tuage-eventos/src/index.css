@@ -70,7 +70,7 @@ h1, h2, h3, h4 {
 }
 
 /* Scroll offset for fixed navbar anchors */
-#inicio, #sobre, #origem, #eventos, #galeria, #contato {
+#inicio, #sobre, #origem, #eventos, #galeria, #localizacao, #contato {
   scroll-margin-top: 110px;
 }
 
